@@ -1,0 +1,19 @@
+.taskContainer {
+	overflow: scroll;
+	width: 250px;
+	height: 250px;
+	background-color: bisque;
+	display: flex;
+	justify-content: center;
+	box-shadow: 1px 1px 1px black;
+}
+
+.taskContentContainer {
+	margin: 0.5rem 0;
+	width: 90%;
+}
+
+.taskTittle {
+	text-align: center;
+	font-size: 1rem;
+}

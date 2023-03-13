@@ -28,18 +28,3 @@ body {
 	color: #c38d9e;
 	font-weight: 700;
 }
-
-.todoInput {
-	border: none;
-	margin-right: 0.5rem;
-	border-radius: 0.5rem;
-	padding: 0.3rem;
-}
-
-.addTask {
-	border: none;
-	margin-right: 0.5rem;
-	border-radius: 0.5rem;
-	padding: 0.3rem;
-	background-color: #61dafb;
-}
