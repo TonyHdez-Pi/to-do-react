@@ -1,7 +1,6 @@
 body {
 	margin: 0;
 	padding: 0;
-	background-color: #41b3a3;
 }
 
 .App {
@@ -9,22 +8,4 @@ body {
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-}
-
-.tittleContainer {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.reactSpan {
-	text-decoration: none;
-	color: #61dafb;
-	font-weight: bolder;
-}
-
-.todoSpan {
-	color: #c38d9e;
-	font-weight: 700;
 }

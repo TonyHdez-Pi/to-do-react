@@ -1,0 +1,19 @@
+.taskContainer {
+	margin: 0.3rem;
+	overflow: scroll;
+	width: 250px;
+	height: 250px;
+	background-color: rgb(227, 208, 208);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-shadow: 1px 1px 10px black;
+}
+.addTaskButton:hover {
+	cursor: pointer;
+}
+.addTaskButton {
+	background-color: transparent;
+	border: none;
+	padding: 1rem;
+}
