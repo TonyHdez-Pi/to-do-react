@@ -1,10 +1,9 @@
 import "./App.css";
-import AddTask from "./components/AddTask";
-
+import StickyTask from "./components";
 function App() {
 	return (
 		<div className="App">
-			<AddTask />
+			<StickyTask />
 		</div>
 	);
 }
