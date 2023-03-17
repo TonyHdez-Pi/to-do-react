@@ -5,15 +5,28 @@
 	background-color: bisque;
 	display: flex;
 	justify-content: center;
-	box-shadow: 1px 1px 1px black;
+	border-radius: 5%;
 }
 
 .taskContentContainer {
 	margin: 0.5rem 0;
 	width: 90%;
+	height: 90%;
 }
 
-.taskTittle {
+.taskTitle {
 	text-align: center;
 	font-size: 1rem;
+}
+
+.actionButton {
+	border: none;
+	background-color: rgb(51, 49, 49);
+	border-radius: 100%;
+	padding: 0.5rem;
+	position: static;
+}
+
+.actionButton:hover {
+	cursor: pointer;
 }

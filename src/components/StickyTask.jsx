@@ -1,20 +1,17 @@
 import React from "react";
 import "../styles/stickyTask.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPencil, faTrash } from "@fortawesome/free-solid-svg-icons";
 
-export default function StickyTask() {
+export default function StickyTask({ title, content }) {
 	return (
 		<div className="taskContainer">
 			<div className="taskContentContainer">
-				<h2 className="taskTittle">StickyTask :)</h2>
-				<p className="taskContent">
-					TaskContent Lorem ipsum dolor sit amet consectetur adipisicing elit.
-					Molestiae architecto porro vero delectus, alias tempore possimus
-					voluptates sequi eos illo natus aperiam voluptate dolor magni
-					inventore, beatae soluta at eius. Lorem ipsum dolor, sit amet
-					consectetur adipisicing elit. Neque alias atque voluptate commodi odit
-					totam eos, distinctio tempore eaque iure nisi dolores eius ad mollitia
-					nihil quaerat. Aperiam, ab doloribus.
-				</p>
+				<button className="actionButton">
+					<FontAwesomeIcon size="sm" color="#fff" icon={faPencil} />
+				</button>
+				<h2 className="taskTitle">{title}</h2>
+				<p className="taskContent">{content}</p>
 			</div>
 		</div>
 	);
