@@ -5,8 +5,8 @@ import { faPencil, faTrash } from "@fortawesome/free-solid-svg-icons";
 
 export default function StickyTask({ title, content }) {
 	return (
-		<div className="taskContainer">
-			<div className="taskContentContainer">
+		<div className="stickyTaskContainer">
+			<div className="stickyTaskContentContainer">
 				<button className="actionButton">
 					<FontAwesomeIcon size="sm" color="#fff" icon={faPencil} />
 				</button>
