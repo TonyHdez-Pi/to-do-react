@@ -10,19 +10,7 @@ function App() {
 			<div className="taskContainer">
 				<StickyTask
 					content={"-Hacer que el boton de agregar nota funcione."}
-					title={"Faltante:"}
-				/>
-				<StickyTask
-					content={"-Hacer que el boton de agregar nota funcione."}
-					title={"Faltante:"}
-				/>
-				<StickyTask
-					content={"-Hacer que el boton de agregar nota funcione."}
-					title={"Faltante:"}
-				/>
-				<StickyTask
-					content={"-Hacer que el boton de agregar nota funcione."}
-					title={"Faltante:"}
+					title={"Titulo alv"}
 				/>
 				<AddTask handleClick={handleClickApp} />
 			</div>

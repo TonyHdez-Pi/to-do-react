@@ -4,7 +4,7 @@
 	overflow: scroll;
 	width: 200px;
 	height: 190px;
-	background-color: rgb(234, 255, 0);
+	background-color: rgb(255, 238, 0);
 	display: flex;
 	justify-content: center;
 	border-radius: 5%;
@@ -18,11 +18,29 @@
 	height: 90%;
 }
 
+.stickyTaskContentContainer > textarea {
+	outline-style: none;
+	border: none;
+}
+
 .taskTitle {
-	position: static;
-	top: 0;
+	width: 100%;
+	resize: none;
+	background-color: transparent;
 	text-align: center;
 	font-size: 1rem;
+	border: 1px solid rgb(68, 0, 255);
+	font-weight: 800;
+}
+
+.taskContent {
+	width: 100%;
+	resize: none;
+	background-color: transparent;
+	text-align: justify;
+	scroll-behavior: smooth;
+	scrollbar-width: thin;
+	scrollbar-color: #fff transparent;
 }
 
 .actionButton {
