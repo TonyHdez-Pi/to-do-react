@@ -12,10 +12,10 @@
 }
 
 .stickyTaskContentContainer {
-	margin: 0.2rem 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	padding: 0.2rem 0;
-	width: 90%;
-	height: 90%;
 }
 
 .stickyTaskContentContainer > textarea {
@@ -29,7 +29,6 @@
 	background-color: transparent;
 	text-align: center;
 	font-size: 1rem;
-	border: 1px solid rgb(68, 0, 255);
 	font-weight: 800;
 }
 
